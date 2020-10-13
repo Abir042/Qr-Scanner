@@ -71,7 +71,7 @@ class SettingsFragment : Fragment(), DeleteConfirmationDialogFragment.Listener {
         button_confirm_scans_manually.setCheckedChangedListener { settings.confirmScansManually = it }
         button_save_scanned_barcodes.setCheckedChangedListener { settings.saveScannedBarcodesToHistory = it }
         button_save_created_barcodes.setCheckedChangedListener { settings.saveCreatedBarcodesToHistory = it }
-        button_enable_error_reports.setCheckedChangedListener { settings.areErrorReportsEnabled = it }
+//        button_enable_error_reports.setCheckedChangedListener { settings.areErrorReportsEnabled = it }
     }
 
     private fun handleButtonClicks() {
@@ -115,7 +115,7 @@ class SettingsFragment : Fragment(), DeleteConfirmationDialogFragment.Listener {
             button_confirm_scans_manually.isChecked = confirmScansManually
             button_save_scanned_barcodes.isChecked = saveScannedBarcodesToHistory
             button_save_created_barcodes.isChecked = saveCreatedBarcodesToHistory
-            button_enable_error_reports.isChecked = areErrorReportsEnabled
+//            button_enable_error_reports.isChecked = areErrorReportsEnabled
         }
     }
 
@@ -135,7 +135,7 @@ class SettingsFragment : Fragment(), DeleteConfirmationDialogFragment.Listener {
 //    }
 
     private fun showSourceCode() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/dmitriy-ilchenko/QrAndBarcodeScanner"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Abir042/Qr-Scanner"))
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         }

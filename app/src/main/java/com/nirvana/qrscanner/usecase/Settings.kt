@@ -115,12 +115,12 @@ class Settings(context: Context) {
         get() = get(Key.SEARCH_ENGINE, SearchEngine.NONE)
         set(value) = set(Key.SEARCH_ENGINE, value)
 
-    var areErrorReportsEnabled: Boolean
-        get() = get(Key.ERROR_REPORTS, BuildConfig.ERROR_REPORTS_ENABLED_BY_DEFAULT)
-        set(value) {
-            set(Key.ERROR_REPORTS, value)
-            Logger.isEnabled = value
-        }
+//    var areErrorReportsEnabled: Boolean
+//        get() = get(Key.ERROR_REPORTS, BuildConfig.ERROR_REPORTS_ENABLED_BY_DEFAULT)
+//        set(value) {
+//            set(Key.ERROR_REPORTS, value)
+//            Logger.isEnabled = value
+//        }
 
     fun isFormatSelected(format: BarcodeFormat): Boolean {
         return sharedPreferences.getBoolean(format.name, true)

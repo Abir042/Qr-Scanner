@@ -11,6 +11,9 @@ import com.nirvana.qrscanner.feature.tabs.history.BarcodeHistoryFragment
 import com.nirvana.qrscanner.feature.tabs.scan.ScanBarcodeFromCameraFragment
 import com.nirvana.qrscanner.feature.tabs.settings.SettingsFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.startapp.sdk.ads.splash.SplashAd
+import com.startapp.sdk.adsbase.StartAppAd
+import com.startapp.sdk.adsbase.StartAppAd.showAd
 import kotlinx.android.synthetic.main.activity_bottom_tabs.*
 
 class BottomTabsActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelectedListener {

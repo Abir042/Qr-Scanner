@@ -12,17 +12,23 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        StartAppSDK.init(this, "209748320");
+        StartAppSDK.init(this, "209748320", false)
 
-        StartAppAd.enableAutoInterstitial();
+        StartAppAd.disableSplash()
+        StartAppAd.disableAutoInterstitial()
 
         StartAppAd.setAutoInterstitialPreferences(
                 AutoInterstitialPreferences()
-                        .setSecondsBetweenAds(60)
-                        .setActivitiesBetweenAds(3)
+                        .setSecondsBetweenAds(90)
+                        .setActivitiesBetweenAds(4)
         )
 
         super.onCreate(savedInstanceState)
         window.decorView.systemUiVisibility = window.decorView.systemUiVisibility or View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
     }
+
+//    override fun onBackPressed() {
+//
+//        super.onBackPressed()
+//    }
 }

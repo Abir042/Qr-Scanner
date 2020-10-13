@@ -122,6 +122,12 @@
                 android:visibility="gone"
                 tools:visibility="visible" />
 
+            <com.startapp.sdk.ads.banner.Mrec
+                android:id="@+id/startAppMrec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="2dp" />
+
             <com.nirvana.qrscanner.feature.common.view.IconButton
                 android:id="@+id/button_add_to_calendar"
                 android:layout_width="match_parent"

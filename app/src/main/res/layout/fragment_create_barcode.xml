@@ -67,6 +67,11 @@
                 app:iconBackground="@color/blue3"
                 app:text="@string/barcode_schema_wifi" />
 
+            <com.startapp.sdk.ads.banner.Banner
+                android:id="@+id/startAppBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
             <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_location"
                 android:layout_width="match_parent"

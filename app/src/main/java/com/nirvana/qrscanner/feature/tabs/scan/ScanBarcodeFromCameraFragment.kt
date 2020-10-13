@@ -2,6 +2,7 @@ package com.nirvana.qrscanner.feature.tabs.scan
 
 import android.Manifest
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -23,6 +24,7 @@ import com.nirvana.qrscanner.model.Barcode
 import com.nirvana.qrscanner.usecase.SupportedBarcodeFormats
 import com.google.zxing.Result
 import com.google.zxing.ResultMetadataType
+import com.startapp.sdk.adsbase.StartAppAd
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -47,6 +49,7 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
     private lateinit var codeScanner: CodeScanner
     private var toast: Toast? = null
     private var lastResult: Barcode? = null
+//    public var cxt = getActivity()?.getApplicationContext()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_scan_barcode_from_camera, container, false)
@@ -226,6 +229,7 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
         if (requireActivity().intent?.action == ZXING_SCAN_INTENT_ACTION) {
             vibrateIfNeeded()
             finishWithResult(result)
+//            StartAppAd.showAd(activity?.applicationContext)
             return
         }
 
@@ -336,6 +340,7 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
     }
 
     private fun finishWithResult(result: Result) {
+
         val intent = Intent()
                 .putExtra("SCAN_RESULT", result.text)
                 .putExtra("SCAN_RESULT_FORMAT", result.barcodeFormat.toString())
@@ -372,4 +377,6 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
             finish()
         }
     }
+
+
 }
