@@ -15,7 +15,7 @@
         app:menu="@menu/menu_scan_barcode_from_image"
         style="@style/ToolbarWithBackButtonStyle" />
 
-    <com.nirvana.qrscanner.feature.tabs.scan.file.MyCropImageView
+    <com.tao.scanqr.feature.tabs.scan.file.MyCropImageView
         android:id="@+id/crop_image_view"
         android:layout_width="0dp"
         android:layout_height="0dp"

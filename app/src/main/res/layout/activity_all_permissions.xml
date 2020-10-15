@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.nirvana.qrscanner.feature.common.view.SettingsButton
+            <com.tao.scanqr.feature.common.view.SettingsButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:text="@string/activity_all_permissions_camera_title"
@@ -30,7 +30,7 @@
                 app:isDelimiterVisible="true"
                 app:isSwitchVisible="false" />
 
-            <com.nirvana.qrscanner.feature.common.view.SettingsButton
+            <com.tao.scanqr.feature.common.view.SettingsButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:text="@string/activity_all_permissions_read_contacts_title"
@@ -38,7 +38,7 @@
                 app:isDelimiterVisible="true"
                 app:isSwitchVisible="false" />
 
-            <com.nirvana.qrscanner.feature.common.view.SettingsButton
+            <com.tao.scanqr.feature.common.view.SettingsButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:text="@string/activity_all_permissions_storage_title"

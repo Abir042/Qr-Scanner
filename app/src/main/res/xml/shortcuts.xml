@@ -7,9 +7,9 @@
         android:shortcutShortLabel="@string/shortcut_scan_from_camera"
         android:shortcutLongLabel="@string/shortcut_scan_from_camera">
         <intent
-            android:action="com.nirvana.qrscanner.SCAN_FROM_CAMERA"
-            android:targetPackage="com.nirvana.qrscanner"
-            android:targetClass="com.nirvana.qrscanner.feature.tabs.BottomTabsActivity" />
+            android:action="com.tao.scanqr.SCAN_FROM_CAMERA"
+            android:targetPackage="com.tao.scanqr"
+            android:targetClass="com.tao.scanqr.feature.tabs.BottomTabsActivity" />
     </shortcut>
 
     <shortcut
@@ -19,9 +19,9 @@
         android:shortcutShortLabel="@string/shortcut_scan_from_file"
         android:shortcutLongLabel="@string/shortcut_scan_from_file">
         <intent
-            android:action="com.nirvana.qrscanner.SCAN_FROM_FILE"
-            android:targetPackage="com.nirvana.qrscanner"
-            android:targetClass="com.nirvana.qrscanner.feature.tabs.scan.file.ScanBarcodeFromFileActivity" />
+            android:action="com.tao.scanqr.SCAN_FROM_FILE"
+            android:targetPackage="com.tao.scanqr"
+            android:targetClass="com.tao.scanqr.feature.tabs.scan.file.ScanBarcodeFromFileActivity" />
     </shortcut>
 
     <shortcut
@@ -31,9 +31,9 @@
         android:shortcutShortLabel="@string/shortcut_create_barcode"
         android:shortcutLongLabel="@string/shortcut_create_barcode">
         <intent
-            android:action="com.nirvana.qrscanner.CREATE_BARCODE"
-            android:targetPackage="com.nirvana.qrscanner"
-            android:targetClass="com.nirvana.qrscanner.feature.tabs.BottomTabsActivity" />
+            android:action="com.tao.scanqr.CREATE_BARCODE"
+            android:targetPackage="com.tao.scanqr"
+            android:targetClass="com.tao.scanqr.feature.tabs.BottomTabsActivity" />
     </shortcut>
 
     <shortcut
@@ -43,9 +43,9 @@
         android:shortcutShortLabel="@string/shortcut_history"
         android:shortcutLongLabel="@string/shortcut_history">
         <intent
-            android:action="com.nirvana.qrscanner.HISTORY"
-            android:targetPackage="com.nirvana.qrscanner"
-            android:targetClass="com.nirvana.qrscanner.feature.tabs.BottomTabsActivity" />
+            android:action="com.tao.scanqr.HISTORY"
+            android:targetPackage="com.tao.scanqr"
+            android:targetClass="com.tao.scanqr.feature.tabs.BottomTabsActivity" />
     </shortcut>
 
 </shortcuts>

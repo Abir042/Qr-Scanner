@@ -31,7 +31,7 @@
                 android:layout_marginHorizontal="@dimen/default_margin"
                 android:padding="@dimen/default_margin_medium2">
 
-                <com.nirvana.qrscanner.feature.common.view.SquareImageView
+                <com.tao.scanqr.feature.common.view.SquareImageView
                     android:id="@+id/image_view_barcode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

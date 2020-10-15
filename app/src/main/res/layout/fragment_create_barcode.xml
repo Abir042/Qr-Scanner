@@ -35,7 +35,7 @@
                 android:text="@string/fragment_create_barcode_qr_code"
                 style="@style/CreateBarcodeGroupTitleTextViewStyle" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_clipboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 app:iconBackground="@color/green"
                 app:text="@string/fragment_create_barcode_qr_code_clipboard" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                 app:iconBackground="@color/blue3"
                 app:text="@string/fragment_create_barcode_qr_code_text" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_url"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                 app:iconBackground="@color/blue3"
                 app:text="@string/barcode_schema_url" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_wifi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_location"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 app:iconBackground="@color/blue3"
                 app:text="@string/barcode_schema_geo" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_contact_vcard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                 app:iconBackground="@color/blue3"
                 app:text="@string/barcode_schema_v_card" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_show_all_qr_code"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                 android:text="@string/fragment_create_barcode"
                 style="@style/CreateBarcodeGroupTitleTextViewStyle" />
 
-            <com.nirvana.qrscanner.feature.common.view.IconButtonWithDelimiter
+            <com.tao.scanqr.feature.common.view.IconButtonWithDelimiter
                 android:id="@+id/button_create_barcode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

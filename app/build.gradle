@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.nirvana.qrscanner"
+        applicationId "com.tao.scanqr"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -50,13 +50,13 @@ android {
         getApps {}
         xda {}
         googlePlay {
-            applicationId "org.qrscanner"
+            applicationId "org.scanqr"
         }
         amazon {
-            applicationId "org.qrscanner"
+            applicationId "org.scanqr"
         }
         aptoide {
-            applicationId "org.qrscanner"
+            applicationId "org.scanqr"
         }
         fDroid {
             buildConfigField "boolean", "ERROR_REPORTS_ENABLED_BY_DEFAULT", "false"

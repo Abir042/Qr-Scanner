@@ -11,8 +11,8 @@
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 6,
-      "versionName": "1.4",
+      "versionCode": 1,
+      "versionName": "1.0",
       "enabled": true,
       "outputFile": "app-appGallery-release.apk"
     }
